@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>Bishar Ibrahim</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+
+    <body>
+        <section class="gameDesignHeader">
+            <nav>
+              <a href="index.html"><img src="images/Logo.png"></a>
+                <div class="nav-links" id ="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="gamedesign.html">GAME DESIGN</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="forums.html">FORUMS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+        <div class="text-box">
+            <h1>My Accomplishments</h1>
+            <p>Here are some of the projects I am most proud of, I have many more to share with you upon request!</p>
+
+        </div>
+        </section>
+
+        <section class="projects">
+        
+            <div class="row">
+                <div class="projects-col">
+                    <img src="images/Data Mining Image.png">
+                    <div class="layer">
+                        <h3>Data Mining</h3>
+                        <p>========================<br>Supervised Machine Learning algorithms deployed on a dataset containing over 100,000 users to predict customer sales.
+                        <br> <br> 92% accuracy </p>
+                        
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <img src="images/Chatbot Image.png">
+                    <div class="layer">
+                        <h3>CHATBOT</h3>
+                        <p>Honors Project <br> January - December 2021 <br>========================<br>Creating a safe environment young individuals can go to in times of need</p>
+                        
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <img src="images/Robot Challenge Image.png">
+                    <div class="layer">
+                        <h3>ROBOT CHALLENGE 2016</h3>
+                        <p>June 2016 - May 2017<br>========================<br>Led a team of 20 students through a year of preparation for this international competition. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="projects-col">
+                    <img src="darkTheme\gamingDarkv2.png">
+                    <div class="layer">
+                        <h3>Game Design</h3>
+                        <p>2018 - Current<br>========================<br>Currently working on Level Design and Player Movement scripts for the creation of my own ideal game. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-------- Footer -------->
+<section class="footer">
+    <h4>Social Links</h4>
+    <div class="icons">
+        <a class="fa fa-facebook" href="https://www.facebook.com/bishar919191"></a>
+        <a class="fa fa-twitter" href="https://twitter.com/BisharWithAnA"></a>
+        <a class="fa fa-instagram" href="https://www.instagram.com/bisharwithana/"></a>
+        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/bisharibrahim/"></a>
+    </div>
+    
+</section>
+
+<!-------JavaScript for Toggle Menu--------> 
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+</html>
